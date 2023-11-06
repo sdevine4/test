@@ -317,7 +317,7 @@ public class ThreeTenDynArray<T> {
 	@Override
 	public String toString() {
 		//This method is provided. Add JavaDoc and comments.
-		
+		System.out.println("This is the elements of the array:\n");
 		StringBuilder s = new StringBuilder("[");
 		for (int i = 0; i < size(); i++) {
 			s.append(get(i));
