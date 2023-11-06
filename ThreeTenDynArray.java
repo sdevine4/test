@@ -192,7 +192,8 @@ public class ThreeTenDynArray<T> {
 		}
 		if(value == null)
 			throw new IllegalArgumentException("Cannot include null values!");
-		boolean temp = setCapacity(size+1);
+		//boolean temp = setCapacity(size+1);
+        setCapacity(size+1);
 		if(index == size)
 			this.set(index,value);
 		size++;
